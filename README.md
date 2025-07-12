@@ -52,7 +52,7 @@ Saya telah membuat versi yang sangat ditingkatkan dari ESPTool Serial Monitor de
 
 ### **Fitur Keamanan:**
 
-- Deteksi browser compatibility
+- Deteksi browser compatibility (desktop only / pc)
 - Error handling yang robust
 - Graceful disconnection
 
