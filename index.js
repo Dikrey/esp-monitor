@@ -49,7 +49,7 @@
 
             async connectToDevice() {
                 try {
-                    this.updateStatus('connecting', 'Menghubungkan...');
+                    this.updateStatus('connecting', 'Menghubungkan bro...');
                     this.connectButton.disabled = true;
                     
                     
@@ -80,7 +80,7 @@
                     
                 } catch (error) {
                     console.error('Error connecting:', error);
-                    this.updateStatus('disconnected', 'Gagal terhubung');
+                    this.updateStatus('disconnected', 'Gagal terhubung bro');
                     this.output.innerHTML += `<span style="color: #ef4444;">[${this.getTimestamp()}] Error: ${error.message}</span>\n`;
                     this.connectButton.disabled = false;
                 }
@@ -101,7 +101,7 @@
                 } catch (error) {
                     if (this.isConnected) {
                         console.error('Reading error:', error);
-                        this.output.innerHTML += `<span style="color: #ef4444;">[${this.getTimestamp()}] Error membaca data: ${error.message}</span>\n`;
+                        this.output.innerHTML += `<span style="color: #ef4444;">[${this.getTimestamp()}] Waduh error membaca data: ${error.message}</span>\n`;
                     }
                 } finally {
                     if (this.reader) {
@@ -167,7 +167,7 @@
                         this.port = null;
                     }
                     
-                    this.updateStatus('disconnected', 'Terputus');
+                    this.updateStatus('disconnected', 'Terputus bro');
                     this.connectButton.style.display = 'block';
                     this.disconnectButton.style.display = 'none';
                     this.connectButton.disabled = false;
