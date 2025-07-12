@@ -278,7 +278,7 @@
                         <i class="fas fa-exclamation-triangle" style="font-size: 3rem; color: #ef4444; margin-bottom: 20px;"></i>
                         <h2 style="color: #ef4444; margin-bottom: 15px;">Browser Tidak Didukung</h2>
                         <p style="color: #e2e8f0; margin-bottom: 20px;">
-                            ESPTool Monitor memerlukan Web Serial API yang hanya tersedia di:
+                            ESPTool Monitor memerlukan Web Serial API yang hanya tersedia di (desktop / Pc):
                         </p>
                         <ul style="color: #94a3b8; text-align: left; margin-bottom: 20px;">
                             <li>Google Chrome 89+</li>
@@ -287,6 +287,9 @@
                         </ul>
                         <p style="color: #64748b; font-size: 14px;">
                             Silakan gunakan salah satu browser di atas untuk mengakses fitur ini.
+                        </p>
+                        <p style="color: #64748b; font-size: 15px;">
+                            Raihan_official0307 X Visualcodepo
                         </p>
                     </div>
                 </div>
